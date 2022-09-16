@@ -12,7 +12,7 @@ numpy= 1.19.2
 
 pycsep=0.6.0 
 
-## Further software especifications
+## Further software requirements
 To run this reproducibility software package, the user must have a pycsep environment installed on her/his/their machine ('tsr-gr' in this example). The easiest way to install pycsep is using `conda`; however, pycsep can also be installed using `pip` or built from source (see the [Documentation on how to install pyCSEP](https://docs.cseptesting.org/getting_started/installing.html)).
 
 ```
