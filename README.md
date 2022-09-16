@@ -32,6 +32,6 @@ These instructions assume that the user is "within" the (e.g. tsr-gr) environmen
 
 ```
 git clone https://github.com/bayonato89/reproducibility_global_vs_regional.git
-cd reproduciblity-gr
+cd reproduciblity_global_vs_regional
 bash ./run_all.sh
 ```
