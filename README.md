@@ -1,4 +1,4 @@
-# Reproducing comparative test results for global and regional time-invariant seismicity models for California, New Zealand, and Italy.
+# Reproducing comparative test results for globally and regionally calibrated seismicity models for California, New Zealand, and Italy.
 This repository provides the code, data, and additional resources to fully reproduce the comparative and consistency test results for the Global Earthquake Activity Rate (GEAR1) model and nineteen regional time-invariant seismicity models for California, New Zealand, and Italy reported in Bayona et al. (in review). The experiment takes about hours to run on a modern desktop computer if the number of simulations per forecast and per test (except for the Poisson and Negative Boinomial Distribution (NBD) number N-tests) is set to 1000.
 
 ## Code description
