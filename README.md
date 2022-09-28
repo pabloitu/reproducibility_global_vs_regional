@@ -6,9 +6,9 @@ The Python scripts needed to run this forecast experiment can be found in the `c
 
 ## Software dependencies
 
-python= 3.10.1
+python= 3.8.6
 
-numpy= 1.21.5 
+numpy= 1.19.2 
 
 pycsep=0.6.0 
 
