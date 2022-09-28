@@ -27,11 +27,19 @@ In addition, the user must have access to a Unix shell with python3 and the `req
 conda install requests
 ```
 
+Furthermore, the user must install `zenodo_get` to download the forecast files from Zenodo. This library can be installed using:
+
+```
+pip3 install zenodo_get
+```
+
 ## Running instructions
 These instructions assume that the user is "within" the (e.g. tsr-gr) environment, with python3 and the `request` library already installed. Thus, running this experiment is as easy as typing:
 
 ```
 git clone https://github.com/bayonato89/reproducibility_global_vs_regional.git
-cd reproduciblity_global_vs_regional
+cd reproduciblity_global_vs_regional/forecasts
+zenodo_get 7116221
+cd ..
 bash ./run_all.sh
 ```
