@@ -18,7 +18,7 @@ To run this reproducibility software package, the user must have a pycsep enviro
 ```
 conda create -n tsr-gr
 conda activate tsr-gr
-conda install --channel conda-forge numpy=1.21.5 pycsep=0.6.0
+conda install --channel conda-forge numpy=1.19.2 pycsep=0.6.0
 ```
 
 In addition, the user must have access to a Unix shell with python3 and the `requests` library included. If this is not the case, she/he/they can install the library using:
