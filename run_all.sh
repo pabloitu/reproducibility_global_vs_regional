@@ -1,8 +1,8 @@
-echo 'Downloading data from Zenodo'
+echo 'Unzipping forecast files'
 echo '============================'
-python ./code/download_data.py
+unzip ./forecasts/access_forecasts.zip
 
 echo ''
 echo 'Running the computations'
 echo '============================'
-python ./code/reproducibility_global_vs_regional.py
+python ./code/reproducibility_global_vs_regional3.py
